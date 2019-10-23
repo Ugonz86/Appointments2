@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Appointments</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Book an appointment with me:</h1>
+      <form id="appointments">
+          <div class="form-group">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name">
+          </div>
+          <div class="form-group">
+            <label for="description">Enter description of appointment:</label>
+            <input type="text" id="description">
+          </div>
+          <div class="form-group">
+            <label for="date">Enter the appointment date:</label>
+            <input type="text" id="date">
+          </div>
+          <div class="form-group">
+            <label for="startTime">Enter start time:</label>
+            <input type="text" id="startTime">
+          </div>
+          <div class="form-group">
+            <label for="endTime">Enter end time:</label>
+            <input type="text" id="endTime">
+          </div>
+          <button type="submit">Book</button>
+      </form>
+      <div id="success">
+        <p>Appointment successful!</p>
+      </div>
+    </div>
+  </body>
+</html>
